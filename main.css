@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier";
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	z-index: 100;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+nav li a {
+	color: white;
+	font-size: 20px;
+}
+
+section {
+	height: 100vh;
+	background: url("fondito.jpg");
+	background-size: cover;
+	}
+.welcome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+h1 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+small {
+	display: block;
+	text-align: center;
+	color: gray;
+	font-size: 20px;
+}
+
+section ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+section ul li {
+	display: inline-block;
+	margin:  0 10px;
+
+}
+section ul li a {
+	color: gray;
+	font-size: 10px;
+}
+img {
+	display: block;
+	max-width: 100px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 10px dotted pink;
+        
+}
+img2 {
+    display :block;
+    max-width: 50px;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+        
+}
